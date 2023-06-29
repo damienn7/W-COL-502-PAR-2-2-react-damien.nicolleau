@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+  /* overflow-y: hidden; */
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+code,pre{
+  position: relative;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  color: green;
+  overflow-wrap: normal;
+  font-size: 23px;
+  height: 600px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+/* ---- */
+/* from : https://dev.to/salehmubashar/search-bar-in-react-js-545l */
+/* start add css */
+
+.main {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+h1 {
+  margin: 10px;
+  font-size: 40px;
+  color: rgb(1, 1, 59);
+}
+
+.search {
+  width: 30%;
+}
+
+ul li {
+  font-size: 20px;
+} 
+
+li{
+  cursor: pointer;
+}
+
+/* end css add */
+/* from : https://dev.to/salehmubashar/search-bar-in-react-js-545l */
+/* ---- */
+
+.App-header {
+  background-color: #43474f;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
